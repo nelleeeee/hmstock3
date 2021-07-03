@@ -106,7 +106,7 @@ function Row({
           <CoverImage src={coverUrl} />
           <AlbumName>{albumName}</AlbumName>
           <Price>
-            {Number(albumPrice) + 1000}
+            {Number(albumPrice) + 3000}
             {"원"}
           </Price>
           <Quant>
